@@ -7,10 +7,10 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-API_URL = os.getenv("API_URL", "http://localhost:8000")
+API_URL = st.secrets['API_URL']
 
 st.set_page_config(page_title="🗨️ Generic Chatbot", layout="centered")
-st.title("🗨️ دردشة عامة")
+st.title("😊 مرحبا بك - Non Autistic People")
 
 # Initialize chat history
 if "history" not in st.session_state:
