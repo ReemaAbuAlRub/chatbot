@@ -16,7 +16,7 @@ class SimulationService:
     ) -> Dict:
         system_prompt = (
         " أنت مساعد    "
-        "تحدث بالعربية 
+        "تحدث بالعربية "
         )
 
         messages = (
